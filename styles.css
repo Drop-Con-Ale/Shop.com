@@ -127,6 +127,7 @@ body {
 .fade {
   opacity: 0;
   animation: fadeUp 1s forwards;
+  font-size: 29px;
 }
 
 .delay { animation-delay: 0.5s; }
