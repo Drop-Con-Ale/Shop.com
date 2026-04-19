@@ -82,10 +82,16 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/*Correccion de img en AirPods Gen III  */
 
-
-
-
+.background-img {
+  background-image: url("https://www.apple.com/v/airpods-pro/r/images/meta/og__c0ceegchesom_specs.png");
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  width: 100%;
+}
+/* Correccion de img - fin  */
 
 
 
