@@ -63,7 +63,9 @@ body {
   object-fit: cover;
 }
 
-.card-content { padding: 20px; }
+.card-content { padding: 20px;
+max-width:295px;               
+}
 
 .card h2 { margin: 0 0 10px; }
 
@@ -90,6 +92,7 @@ body {
   height: 200px;
   background-position: center;
   width: 100%;
+  max-width:295px;
 }
 /* Correccion de img - fin  */
 
