@@ -21,3 +21,30 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+//Modal - Catalog Section
+const modal = document.getElementById("modal");
+const modalBody = document.getElementById("modal-body");
+const closeBtn = document.querySelector(".close");
+
+document.querySelectorAll(".card").forEach(card => {
+  card.addEventListener("click", () => {
+
+    const info = card.querySelector(".modal-info");
+    if (!info) return;
+
+    modalBody.innerHTML = info.innerHTML;
+    modal.style.display = "block";
+  });
+});
+
+closeBtn.onclick = () => modal.style.display = "none";
+
+window.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+});
+
+
+
+
