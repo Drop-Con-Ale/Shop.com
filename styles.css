@@ -141,3 +141,22 @@ max-width:295px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
+
+
+/* SCROLL DE MODAL */
+
+.modal-content {
+  max-height: 80vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+}
