@@ -87,7 +87,7 @@ max-width:295px;
 /*Correccion de img en AirPods Gen III  */
 
 .background-img {
-  background-image: url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-pro-3-thumb-3-202509?wid=282&hei=240&fmt=jpeg&qlt=90&.v=ZEN5L1ZLampHMG81Vmt6cUxySXA5SVExTG00OG94dG1aNS92UzJ5bVM5OVFtQUk3aUJ5NlJiVnd4bFY5ZW9YR014MXJScFRZN3Y5OWZsRXVrN1k4cGR1eUREOTIvOWxvaXNUOHI1Y0k4MWc");
+  background-image: url("https://www.apple.com/v/airpods-pro/q/images/meta/og__c0ceegchesom_specs.png");
   background-size: cover;
   height: 200px;
   background-position: center;
@@ -141,6 +141,7 @@ max-width:295px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
+
 
 
 
